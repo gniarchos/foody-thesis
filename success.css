@@ -1,0 +1,92 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+* {
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+body {
+    --background-color: #dde8f0;
+    --divs-color: white;
+    --text-color: black;
+
+    background: url('images/background-login-dark-trans.png') no-repeat center fixed;
+    background-size: cover;
+    background-color: var(--background-color);
+    height: 100%;  
+    margin:0;  
+}
+
+body.dark {
+    --background-color: #333;
+    --divs-color: #444444;
+    --text-color: #EEEEEE;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 200px;
+}
+
+.empty-div {
+    order: 1;
+    width: 60%;
+}
+
+.login-div {
+    order:2;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-div {
+    width: 39.5%;
+    padding-left: 21%;
+}
+
+.logo {
+    max-width: 280px;
+    max-height: 280px;
+}
+
+.div-form {
+    background-color:var(--divs-color);
+    text-align: center;
+    width: 450px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+}
+
+.h3-title {
+    color: var(--text-color);
+}
+
+.h2-subtitle {
+    color: var(--text-color);
+}
+
+#showseconds {
+    color: var(--text-color);
+}
+
+/* mobile */
+@media all and (max-width:414px) {
+
+    .wrapper {
+        top: 90px;
+    }
+
+
+    .div-form {
+        width: 100vw;
+    }
+
+    .logo-div {
+        width: 100vw;
+        padding-left: 15%;
+    }
+    
+
+}
