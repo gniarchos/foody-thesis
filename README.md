@@ -1,24 +1,24 @@
 # 📦 Foody - Delivery App (Thesis)
 
-A food delivery app using different types of Adaptive User Interfaces.
+A food delivery app using various types of Adaptive User Interfaces.
 
-This project is using the MySQL server for login/signup and for user data. The app is fetching all the data from the MySQL server and the connection was made using PHP.
+This project uses the MySQL server for login/signup and user data. The app fetches all the data from the MySQL server and the connection is established using PHP.
 
 ## 🛠️ Features
-- Order from plenty of restaurants
-- Search restaurants
+- Order from a variety of restaurants
+- Search for restaurants
 - Apply filters
-- See restaurant's menu
-- Make orders
-- Order Summary
+- View restaurant menus
+- Place orders
+- Order summary
 - Submit and read reviews
 
-## ✔️ Adaptivity by
+## ✔️ Adaptivity based on:
 - Time of day
-- Preferences of the user
-- The age of the user
-- The location of the user
-- The device of the user
+- User preferences
+- User's age
+- User's location
+- User's device
 
 ## 🚧 Made with
 
