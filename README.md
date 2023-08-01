@@ -4,12 +4,6 @@ A food delivery app using different types of Adaptive User Interfaces.
 
 This project is using the MySQL server for login/signup and for user data. The app is fetching all the data from the MySQL server and the connection was made using PHP.
 
-## 🎮 How to play
-
-	1. Select trivia properties
-	2. Answer all the questions
-	3. Press "Show Results" to see how many correct answers you got
-
 ## 🛠️ Features
 - Order from plenty of restaurants
 - Search restaurants
